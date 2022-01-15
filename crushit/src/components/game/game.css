@@ -1,0 +1,43 @@
+.Game {
+    background-color: #282c34;
+    text-align: center;
+  }
+  .Game-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .Game-link {
+    color: #61dafb;
+  }
+  .Game-login {
+    color: #000000;
+    width: 1000px;
+  }
+  .Game-text{
+    color: #61dafb;
+  }
+  
+  @media(max-width:500px) {
+    .Game-login {
+      color: #000000;
+      width: 400px;
+    }
+  }
+  @media(max-width:400px) {
+    .Game-login {
+      color: #000000;
+      width: 350px;
+    }
+  }
+  @media(max-width:300px) {
+    .Game-login {
+      color: #000000;
+      width: 300px;
+    }
+  }

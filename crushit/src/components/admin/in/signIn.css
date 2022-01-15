@@ -1,0 +1,35 @@
+.sign-in-header{
+    width: 50ch ;
+}
+.sign-text-field
+{
+    width: 50ch;
+}
+@media(max-width:500px) {
+    .sign-in-header{
+        width: 33ch ;
+    }
+    .sign-text-field
+    {
+        width: 33ch;
+        margin-bottom: 5ch;
+    }
+}
+@media(max-width:400px) {
+    .sign-in-header{
+        width: 28ch ;
+    }
+    .sign-text-field
+    {
+        width: 28ch;
+    }
+}
+@media(max-width:300px) {
+    .sign-in-header{
+        width: 23ch ;
+    }
+    .sign-text-field
+    {
+        width: 23ch;
+    }
+}
