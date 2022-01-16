@@ -40,7 +40,7 @@ function Game() {
             sessionStorage.setItem("col", JSON.stringify(3));
             sessionStorage.setItem("passed", JSON.stringify(win+1));
             alert("Nice Job");
-            history.push('/entry');
+            history.push('/game');
             window.location.reload(false);
         }
         else{
@@ -48,7 +48,7 @@ function Game() {
             sessionStorage.setItem("col", JSON.stringify(Col+1));
             sessionStorage.setItem("passed", JSON.stringify(win+1));
             alert("Nice Job");
-            history.push('/entry');
+            history.push('/game');
             window.location.reload(false);
         }
     }
