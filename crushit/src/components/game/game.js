@@ -27,17 +27,17 @@ function Game() {
     const levelPassed = ()=>
     {
         const win = JSON.parse(sessionStorage.getItem("passed"));
-        if(Row===12 && Col===12)
+        if(Row===12 && Col===7)
         {
             alert("Victory You are the best!");
             sessionStorage.clear();
             history.push('/home');
             window.location.reload(false);
         }
-        else if(Col===12)
+        else if(Col===7)
         {
             sessionStorage.setItem("row", JSON.stringify(Row+1));
-            sessionStorage.setItem("col", JSON.stringify(4));
+            sessionStorage.setItem("col", JSON.stringify(3));
             sessionStorage.setItem("passed", JSON.stringify(win+1));
             alert("Nice Job");
             history.push('/entry');
@@ -418,7 +418,7 @@ function Game() {
         var tempGrid = [];
         for(let j=0;j<Col;j++)
         {
-            tempGrid.push(<Button variant="outlined" data-msg={cnt} style={{color:'white'}} disabled={visibleGrid[cnt]} onMouseEnter={setBorder} onMouseLeave={unSetBorder} onClick={setGame}>{cnt}</Button>);
+            tempGrid.push(<Button variant="outlined" data-msg={cnt} style={{color:'white',minWidth:'48px'}} disabled={visibleGrid[cnt]} onMouseEnter={setBorder} onMouseLeave={unSetBorder} onClick={setGame}>{cnt}</Button>);
             cnt++;
         }
         gameGrid.push(tempGrid);
