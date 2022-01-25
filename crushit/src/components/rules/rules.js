@@ -55,7 +55,7 @@ function Rules() {
                 </li>
             </ul>
         </Box>
-        <Button variant="contained" color="success"style={{width:'10%',height:'30%',marginTop:"3%",marginBottom:'5%'}} onClick={()=>{history.push('/game');window.location.reload(false)}}>Enter</Button>
+        <Button variant="contained" color="warning"style={{width:'10%',height:'30%',marginTop:"3%",marginBottom:'5%'}} onClick={()=>{history.push('/game');window.location.reload(false)}}>Enter</Button>
       </header>
     </div>
   );
