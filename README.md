@@ -26,4 +26,4 @@ Crushit is an interactive puzzle game where players need to eliminate buttons on
    - If a button has 0 adjacent buttons, you can't eliminate that button.
 
 6. **Victory**: 
-   - The player wins when no buttons are left to crush.  
+   - The player wins when no buttons are left to crush!.  
