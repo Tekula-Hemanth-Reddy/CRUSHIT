@@ -1,4 +1,5 @@
-# [Crushit](https://crushit.vercel.app/home)
+# Crushit
+[Click here to discover what I can do!](https://crushit.vercel.app/home)
 
 Crushit is an interactive puzzle game where players need to eliminate buttons on the screen based on certain rules. The goal is to clear the screen by pressing buttons surrounded by other buttons, and the player wins when there are no buttons left to crush.
 
